@@ -9,7 +9,7 @@ export default defineConfig({
     strictPort: false, // لا تحدد المنفذ بشكل صارم
   },
   preview: {
-    allowedHosts: ['repo32-3.onrender.com'], // إضافة النطاق الذي تحصل منه على التطبيق
+    allowedHosts: ['repo32-5.onrender.com'], // إضافة النطاق الذي تحصل منه على التطبيق
   },
 });
 
