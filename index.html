@@ -1,15 +1,33 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://web.telegram.org;">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ffffff">
 
+    <!-- Meta Tags خاصة بـ Telegram -->
+    <meta property="og:title" content="متجري الإلكتروني 🛍">
+    <meta property="og:description" content="أفضل المنتجات بأفضل الأسعار!">
+    <meta property="og:image" content="vite.svg"> <!-- تأكد من الرابط الفعلي -->
+    <meta property="og:url" content="https://repo32-5.onrender.com/">
 
+    <!-- تحسين دعم WebView في تيليجرام -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <!-- إضافات لتحسين تجربة المشاركة على تويتر -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="متجري الإلكتروني 🛍">
+    <meta name="twitter:description" content="أفضل المنتجات بأفضل الأسعار!">
+    <meta name="twitter:image" content="https://yourwebsite.com/logo.png"> <!-- رابط الصورة -->
+
+    <!-- Manifest لتثبيت التطبيق على الأجهزة -->
+    <link rel="manifest" href="/manifest.json">
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx"></script> <!-- تأكد من صحة المسار -->
   </body>
 </html>
